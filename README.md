@@ -1,95 +1,58 @@
-# Project 4 — Process Improvement (Sample Project)
+# Vedanth Choudhury | Business Analyst Portfolio
 
-**Scenario:** Customer support ticket handling  
-**Type:** Fictional portfolio exercise — no real organization or measured outcome is represented.
+**IT Business Analyst · Technical Business Analysis · Data Analytics**
 
-## 1. Business problem
+Welcome to my portfolio. This repository showcases practical work and structured examples across requirements analysis, stakeholder communication, data analysis, solution evaluation, and process improvement.
 
-Assume a support team receives requests through email and chat but does not use a consistent intake process. Tickets may be missing key details, priorities may be unclear, and requesters may not know the current status.
+## About me
 
-These are hypothetical pain points to investigate, not measured findings from a real company.
+I am an IT professional building on hands-on experience in client-facing technical solution analysis and business analysis activities. My work has included clarifying stakeholder requirements, reviewing technical-team findings, identifying issues and evaluation limitations, discussing infrastructure scope, and communicating findings to internal stakeholders.
 
-## 2. Objective
+I am interested in IT Business Analyst and Technical Business Analyst opportunities where I can connect business needs with clear requirements, evidence-based analysis, and actionable recommendations.
 
-Design a more consistent workflow for capturing, prioritizing, assigning, and tracking support tickets.
+## Skills
 
-## 3. Stakeholders
+- **Business analysis:** Requirements elicitation, scope clarification, stakeholder communication, issue analysis, gap analysis concepts, solution evaluation
+- **Documentation:** BRD/FRD concepts, user stories, acceptance criteria, requirements traceability, UAT planning
+- **Data analysis:** SQL, Microsoft Excel, KPI definition, data cleaning, dashboard interpretation
+- **Visualization:** Power BI, Tableau
+- **Delivery:** POC coordination, cross-functional collaboration, findings and recommendations
 
-- Customer / requester
-- Support agent
-- Support team lead
-- Service owner
-- IT/system administrator
+## Projects
 
-## 4. AS-IS process (hypothesis to validate)
+### 1. Retail Sales Analysis — Blinkit Dataset
+**Focus:** Data analysis, KPI design, business insights, and recommendations  
+[Open case study](./01-Blinkit-Sales-Analysis/README.md)
 
-1. Request arrives through an informal channel.
-2. Agent manually collects missing information.
-3. Priority and ownership may be assigned inconsistently.
-4. Requester follows up for status.
-5. Team lead manually reviews unresolved items.
+### 2. Network Monitoring System POC — Enterprise IT Case Study
+**Focus:** Requirements clarification, review of technical-team results, issue analysis, infrastructure scope, and internal reporting  
+[Open case study](./02-NMS-POC-Analysis/README.md)
 
-Before proposing a real change, a BA should validate this flow through stakeholder interviews, process observation, and available ticket data.
+> **Confidentiality note:** This public case study generalizes client-specific details. No internal client documents, credentials, network information, or confidential product information should be published. Identify the client by name only if your employer and client permit it.
 
-## 5. Potential root causes to investigate
+### 3. Requirements Engineering — Sample Project
+**Focus:** BRD outline, user stories, acceptance criteria, traceability, and UAT  
+[Open case study](./03-Requirements-Engineering/README.md)
 
-- No standard intake form or required fields
-- No agreed priority definitions
-- No explicit ownership or escalation rules
-- Limited status visibility for requesters
-- No consistent reporting on backlog and aging
+### 4. Process Improvement — Sample Project
+**Focus:** AS-IS/TO-BE thinking, pain-point analysis, proposed improvements, and success metrics  
+[Open case study](./04-Process-Improvement/README.md)
 
-These are hypotheses, not confirmed root causes.
+## How I approach a case study
 
-## 6. Proposed TO-BE process
+1. Understand the business problem and stakeholders.
+2. Clarify scope, requirements, assumptions, and constraints.
+3. Analyze available data or evidence.
+4. Document gaps, risks, dependencies, and open questions.
+5. Recommend next steps and define how outcomes could be validated.
 
-1. Capture the request through a standardized intake form.
-2. Validate required information and categorize the request.
-3. Apply agreed priority rules based on impact and urgency.
-4. Assign the ticket to a responsible queue or owner.
-5. Notify the requester of receipt and status changes.
-6. Escalate tickets that breach agreed service targets.
-7. Review backlog, aging, reopen rate, and service-level performance.
+## Important note
 
-## 7. Requirements to consider
+Some projects describe professional activities; others are explicitly labeled as sample exercises. Recommendations or templates created for this portfolio are not presented as historical client deliverables. Metrics and outcomes are included only where they can be supported by evidence.
 
-| ID | Proposed requirement | Acceptance idea |
-|---|---|---|
-| PR-01 | A ticket must capture category, description, requester, and impact information. | Incomplete tickets prompt the user to supply required fields. |
-| PR-02 | Each submitted ticket must have an owner or queue. | The ticket record displays the assigned owner/queue. |
-| PR-03 | The requester must be able to view ticket status. | The requester sees the latest permitted status. |
-| PR-04 | Tickets approaching an agreed target should be flagged. | A test ticket meeting the configured condition appears in the escalation view. |
-| PR-05 | Team leads should be able to review backlog and ticket aging. | A report groups open tickets by age, priority, and status. |
+## Contact
 
-## 8. Success metrics to baseline
+- **GitHub:** [@vedanth-vc](https://github.com/vedanth-vc)
+- **LinkedIn:** [Vedanth Choudhury](https://www.linkedin.com/in/vedanth-choudhury-b23518164/)
 
-Do not set improvement claims until the current baseline and measurement rules are known.
-
-- Median time to first response
-- Median time to resolution
-- Percentage of tickets resolved within the agreed service target
-- Reopen rate
-- Number and age of overdue tickets
-- Percentage of tickets missing required information
-- Requester satisfaction, if measured consistently
-
-For each metric, define the period, population, exclusions, data source, and calculation method.
-
-## 9. Risks and dependencies
-
-- Inconsistent historical data can distort the baseline.
-- Priority rules require business-owner agreement.
-- Automation depends on tool capabilities and access permissions.
-- New workflows may require training and change management.
-- Reporting should respect data-access and privacy requirements.
-
-## 10. Recommended next steps
-
-1. Interview stakeholders and map the actual AS-IS process.
-2. Review a representative sample of ticket data.
-3. Validate root causes and quantify the baseline.
-4. Agree the TO-BE workflow, roles, and service targets.
-5. Create requirements and test scenarios.
-6. Pilot the process, compare results against the baseline, and iterate.
-
-**Status:** Fictional portfolio exercise. No real process change or performance improvement is claimed.
+For a role-specific discussion, please contact me through LinkedIn.
