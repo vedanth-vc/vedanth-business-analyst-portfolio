@@ -1,58 +1,93 @@
-# Vedanth Choudhury | Business Analyst Portfolio
+# Project 2 — Enterprise Network Monitoring System (NMS) POC Analysis
 
-**IT Business Analyst · Technical Business Analysis · Data Analytics**
+**Project type:** Professional experience case study  
+**Focus:** Requirements clarification, technical-results analysis, issue identification, infrastructure scope, and stakeholder reporting  
+**Context:** Enterprise network-monitoring Proof of Concept (POC)
 
-Welcome to my portfolio. This repository showcases practical work and structured examples across requirements analysis, stakeholder communication, data analysis, solution evaluation, and process improvement.
+## Confidentiality statement
 
-## About me
+This public version is intentionally generalized. Do not publish client-identifying information, internal reports, network diagrams, IP addresses, device inventories, credentials, screenshots, or product-sensitive details without written authorization. If disclosure is approved, update the client reference only within the permitted scope.
 
-I am an IT professional building on hands-on experience in client-facing technical solution analysis and business analysis activities. My work has included clarifying stakeholder requirements, reviewing technical-team findings, identifying issues and evaluation limitations, discussing infrastructure scope, and communicating findings to internal stakeholders.
+## 1. Project context
 
-I am interested in IT Business Analyst and Technical Business Analyst opportunities where I can connect business needs with clear requirements, evidence-based analysis, and actionable recommendations.
+Supported a network-monitoring POC for an enterprise client. The assignment involved clarifying monitoring needs, reviewing observations supplied by the technical team, considering infrastructure sizing, identifying evaluation limitations, and preparing internal findings for senior and technical stakeholders.
 
-## Skills
+## 2. Objective
 
-- **Business analysis:** Requirements elicitation, scope clarification, stakeholder communication, issue analysis, gap analysis concepts, solution evaluation
-- **Documentation:** BRD/FRD concepts, user stories, acceptance criteria, requirements traceability, UAT planning
-- **Data analysis:** SQL, Microsoft Excel, KPI definition, data cleaning, dashboard interpretation
-- **Visualization:** Power BI, Tableau
-- **Delivery:** POC coordination, cross-functional collaboration, findings and recommendations
+Assess how the available POC evidence aligned with the client's monitoring requirements and identify what needed further validation before stakeholders could make a well-supported decision.
 
-## Projects
+## 3. My contribution
 
-### 1. Retail Sales Analysis — Blinkit Dataset
-**Focus:** Data analysis, KPI design, business insights, and recommendations  
-[Open case study](./01-Blinkit-Sales-Analysis/README.md)
+- Clarified stakeholder needs for monitoring network devices and connectivity-related components.
+- Reviewed technical-team results concerning device discovery, monitoring status, alerts, and reported issues.
+- Considered requirements coverage and identified areas where available evidence was insufficient or further testing was needed.
+- Participated in discussions about device scope and infrastructure/server sizing.
+- Prepared an internal findings report for senior and technical stakeholders.
+- Coordinated follow-up on the evaluation timeline when interruptions limited the amount of usable monitoring evidence.
 
-### 2. Network Monitoring System POC — Enterprise IT Case Study
-**Focus:** Requirements clarification, review of technical-team results, issue analysis, infrastructure scope, and internal reporting  
-[Open case study](./02-NMS-POC-Analysis/README.md)
+**Role boundary:** Technical tests were performed by the technical team; my contribution included reviewing the resulting observations and communicating analysis. This case study does not claim that I personally executed all tests or that the solution passed final acceptance.
 
-> **Confidentiality note:** This public case study generalizes client-specific details. No internal client documents, credentials, network information, or confidential product information should be published. Identify the client by name only if your employer and client permit it.
+## 4. Business analysis approach
 
-### 3. Requirements Engineering — Sample Project
-**Focus:** BRD outline, user stories, acceptance criteria, traceability, and UAT  
-[Open case study](./03-Requirements-Engineering/README.md)
+### Requirements categories
 
-### 4. Process Improvement — Sample Project
-**Focus:** AS-IS/TO-BE thinking, pain-point analysis, proposed improvements, and success metrics  
-[Open case study](./04-Process-Improvement/README.md)
+| Requirement area | Example evidence to review | Validation status |
+|---|---|---|
+| Device discovery | Expected device list compared with discovered devices | To be populated from approved evidence |
+| Availability monitoring | Status history and availability observations | To be populated from approved evidence |
+| Alerts | Trigger conditions, alert records, and expected behavior | To be populated from approved evidence |
+| Network device monitoring | Available metrics and device-specific coverage | To be populated from approved evidence |
+| ISP/SD-WAN monitoring | Agreed scenarios and observed results | To be populated from approved evidence |
+| Infrastructure sizing | Final inventory, architecture assumptions, capacity and dependencies | Requires technical confirmation |
 
-## How I approach a case study
+The table above is a portfolio template, not a claim that every scenario was fully tested.
 
-1. Understand the business problem and stakeholders.
-2. Clarify scope, requirements, assumptions, and constraints.
-3. Analyze available data or evidence.
-4. Document gaps, risks, dependencies, and open questions.
-5. Recommend next steps and define how outcomes could be validated.
+## 5. Issue and limitation analysis
 
-## Important note
+A key evaluation limitation was that interruptions meant the POC did not produce usable monitoring evidence consistently across the original evaluation period. Therefore, the elapsed calendar duration alone was not sufficient to conclude that all requirements had been validated.
 
-Some projects describe professional activities; others are explicitly labeled as sample exercises. Recommendations or templates created for this portfolio are not presented as historical client deliverables. Metrics and outcomes are included only where they can be supported by evidence.
+### Analysis implications
 
-## Contact
+- Requirements without sufficient evidence should be marked **Not yet validated**, rather than Passed.
+- Issues should be recorded with observed behavior, impact, supporting evidence, owner, and retest status.
+- Infrastructure estimates should be distinguished from confirmed production sizing.
+- Any extension should have agreed objectives and a clear retest plan.
 
-- **GitHub:** [@vedanth-vc](https://github.com/vedanth-vc)
-- **LinkedIn:** [Vedanth Choudhury](https://www.linkedin.com/in/vedanth-choudhury-b23518164/)
+## 6. Recommended POC evaluation matrix
 
-For a role-specific discussion, please contact me through LinkedIn.
+| Requirement / scenario | Expected result | Evidence | Status | Follow-up |
+|---|---|---|---|---|
+| Device discovery | In-scope devices discovered as agreed | Approved discovery export/screenshot | Not yet populated | Confirm inventory and retest |
+| Availability monitoring | Status reflects the agreed test scenario | Timestamped monitoring evidence | Not yet populated | Review gaps and retest |
+| Alert behavior | Configured test event produces expected alert | Alert record and test notes | Not yet populated | Confirm trigger and notification path |
+| Reporting | Required report fields are available | Sample report | Not yet populated | Confirm stakeholder reporting needs |
+| Infrastructure sizing | Proposed architecture supports agreed scope | Technical sizing review | Pending confirmation | Validate assumptions with technical team |
+
+These are proposed evaluation criteria for a structured assessment, not historical results.
+
+## 7. Recommended next steps
+
+1. Confirm the final requirements and in-scope device inventory.
+2. Agree measurable acceptance criteria with the client and technical team.
+3. Maintain an issue log with evidence, owner, severity/impact, and retest status.
+4. Retest scenarios affected by interruptions and retain dated evidence where permitted.
+5. Report validated, partially validated, failed, and not-yet-tested requirements separately.
+6. Prepare a final assessment with risks, dependencies, and recommended next steps.
+
+## 8. Skills demonstrated
+
+- Requirements elicitation and clarification
+- Technical-results review
+- Issue and limitation analysis
+- Solution-scope assessment
+- Infrastructure-sizing discussions
+- Stakeholder communication and internal reporting
+- POC coordination and evidence-based evaluation
+
+## 9. Reflection
+
+The main analytical lesson is that a POC decision should be based on traceable evidence against agreed requirements—not only on elapsed time or a general impression of product performance.
+
+## Status
+
+Sanitized professional case study. Replace template statuses with approved, verified evidence only. Do not upload internal client deliverables to a public repository.
